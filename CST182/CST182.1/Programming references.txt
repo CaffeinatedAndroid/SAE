@@ -1,0 +1,5 @@
+https://en.wikipedia.org/wiki/ANSI_escape_code
+
+https://jakob-bagterp.github.io/colorist-for-python/ansi-escape-codes/standard-16-colors/
+
+https://jakob-bagterp.github.io/colorist-for-python/ansi-escape-codes/introduction/

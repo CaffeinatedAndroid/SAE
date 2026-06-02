@@ -1,0 +1,12 @@
+Source,Target,Weight
+Alex,Bella,3
+Alex,Carlos,2
+Bella,Dina,5
+Carlos,Eli,4
+Dina,Eli,2
+Eli,Fatima,3
+Fatima,Gus,4
+Gus,Hannah,1
+Hannah,Alex,3
+Carlos,Fatima,2
+Dina,Gus,1

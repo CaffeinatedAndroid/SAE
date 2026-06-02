@@ -1,0 +1,12 @@
+Person_A,Person_B,Collaboration_Score
+Alex,Bella,4
+Alex,Carlos,2
+Bella,Dina,3
+Carlos,Eli,4
+Dina,Eli,3
+Eli,Fatima,5
+Fatima,Gus,5
+Gus,Hannah,2
+Hannah,Alex,1
+Carlos,Fatima,5
+Dina,Gus,5

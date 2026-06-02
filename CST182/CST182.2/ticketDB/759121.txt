@@ -1,0 +1,33 @@
+TicketID:
+759121
+
+Name:
+Enter Name
+
+DropOffDate:
+Enter Date
+
+PickupDate:
+Enter Date
+
+Device:
+-1
+
+Diagnosis:
+HDMI
+
+Repair:
+0
+
+Notes:
+Enter Repair Notes Here...Enter NameEnter Name
+
+Time:
+1.5
+
+Costs:
+150.0
+
+Status:
+0
+

@@ -1,0 +1,11 @@
+                   938384                      
+                   Enter Name                      
+                   Enter Date                      
+                   Enter Date                      
+                   -1                      
+                   HDMI                      
+                   0                      
+                   Enter Repair Notes Here...Enter NameEnter NameEnter Name                      
+                   1.5                      
+                   150.0                      
+                   0                      

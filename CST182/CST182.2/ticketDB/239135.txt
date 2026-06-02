@@ -1,0 +1,11 @@
+          ticketID: 239135                      
+          name: Demo                      
+          dropOffDate: 12/12/2026                      
+          pickupDate: 14/12/2026                      
+          device: -1                      
+          diagnosis: HDMI                      
+          repair: 0                      
+          notes: XBOX, HDMI, IC REPAIRDemo                      
+          time: 3.0                      
+          costs: 200.0                      
+          status: 0                      
