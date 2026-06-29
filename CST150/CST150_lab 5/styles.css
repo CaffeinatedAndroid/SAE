@@ -1,0 +1,155 @@
+* {
+box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+header {
+    grid-area: header;
+    background-color: #1e3a5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #2f5d8c;
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #24496e;
+    border-radius: 6px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #18324d;
+}
+main {
+    grid-area: main;
+    padding: 20px;
+}
+aside {
+    grid-area: aside;
+    background-color: #e2e8f0;
+    padding: 20px;
+}
+footer {
+    grid-area: footer;
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #003d82;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+
+}
+@media (max-width: 768px) {
+    body {
+        grid-template-areas:
+        "header"
+        "nav"
+
+        "main"
+        "aside"
+        "footer";
+        grid-template-columns: 1fr;
+    }
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav a {
+        min-width: 100px;
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    main,
+    aside {
+        padding: 15px;
+    }
+    button {
+        width: 100%;
+    }
+}

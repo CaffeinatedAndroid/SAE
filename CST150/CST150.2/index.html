@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro Elegante - Fine Dining Experience</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">Bistro Elegante</div>
+        <nav>
+            <button id="mobile-menu-btn" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul id="mobile-menu" class="hidden">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience Fine Dining</h1>
+            <p>Indulge in exceptional cuisine, elegant atmosphere, and impeccable service.</p>
+            <a href="#reservations" class="btn">Make a Reservation</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="images/Grilled Salmon.png" alt="images/Grilled Salmon.png">
+                <h3>Grilled Salmon</h3>
+                <p>Fresh Atlantic salmon with lemon-dill sauce, served with seasonal vegetables.</p>
+                <p class="price">$28.95</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/Filet Mignon.png" alt="images/Filet Mignon.png">
+                <h3>Filet Mignon</h3>
+                <p>Prime cut beef tenderloin, garlic butter, truffle mashed potatoes.</p>
+                <p class="price">$34.95</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/Mushroom Risotto.png" alt="images/Mushroom Risotto.png">
+                <h3>Mushroom Risotto</h3>
+                <p>Creamy Arborio rice with wild mushrooms, white wine, and Parmesan.</p>
+                <p class="price">$22.95</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/Duck Confit.png" alt="images/Duck Confit.png">
+                <h3>Duck Confit</h3>
+                <p>Slow-cooked duck leg with orange glaze and roasted root vegetables.</p>
+                <p class="price">$30.95</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Bistro Elegante</h2>
+        <p>Founded in 2010, Bistro Elegante brings the finest culinary experiences to your table. Our chef, with over 20 years of experience in Michelin-starred restaurants, crafts each dish with passion and precision.</p>
+        <p>We source our ingredients locally whenever possible, supporting sustainable farming and providing the freshest flavors.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Visit Us</h3>
+                <p>39 Regent Street</p>
+                <p>Culinary District</p>
+                <p>Chippendale, NSW 2008</p>
+                <h3>Hours</h3>
+                <p>Tuesday - Sunday: 5:00 PM - 10:00 PM</p>
+                <p>Closed on Mondays</p>
+                <h3>Call Us</h3>
+                <p>(+61) 123-4567</p>
+            </div>
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservations" class="contact-section">
+        <h2 class="section-title">Make a Reservation</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="reservationForm">
+                    <div class="form-group">
+                        <label for="res-name">Name</label>
+                        <input type="text" id="res-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="res-email">Email</label>
+                        <input type="email" id="res-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="res-phone">Phone</label>
+                        <input type="tel" id="res-phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="res-date">Date</label>
+                        <input type="date" id="res-date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="res-time">Time</label>
+                        <input type="time" id="res-time" name="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="res-guests">Number of Guests</label>
+                        <input type="number" id="res-guests" name="guests" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="res-notes">Special Requests</label>
+                        <textarea id="res-notes" name="notes" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Request Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Bistro Elegante. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
